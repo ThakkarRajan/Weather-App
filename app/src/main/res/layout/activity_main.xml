@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientcolor"
+
+    tools:context=".MainActivity">
+<!--    <pl.droidsonroids.gif.GifImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:background="@drawable/clearsky" />-->
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/mainLauout"
+    android:visibility="visible"
+    android:padding="40sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_city_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search for a city in Canada"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btnNewCity"
+        />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/addContainer"
+    >
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/updated_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated At"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/overviewContainer"
+        >
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Clear Sky" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="48° C"
+            android:textSize="90sp"
+            android:id="@+id/temp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="48° C"
+            android:textSize="20sp"
+            android:id="@+id/feelslike"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            />
+
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min C"
+            android:id="@+id/mintemp"
+            />
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+         >
+    </Space>
+
+        <TextView
+
+            android:id="@+id/maxtemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max C" />
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="100sp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="100dp"
+                    android:background="#43090909"></ImageView>
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#43090909"
+                />
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    />
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#43090909"
+                />
+
+        </LinearLayout>
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#43090909"
+                />
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#43090909"
+                />
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="0dp"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#43090909"
+                />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/loader"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/errorTxt"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="Something Went Wrong Try Agin"
+        />
+</RelativeLayout>
