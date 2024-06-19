@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
     var city = "toronto"
-    val api = "0fd0b8e47a6bb2794abfef589eac6408"
+    val api = "" // add API from the https://openweathermap.org/api
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Hide the status bar
