@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
                 val cityName = jsonObject.getString("name")
                 val weather = jsonObject.getJSONArray("weather").getJSONObject(0)
                 val weatherStatus = weather.getString("description")
-                val updated = jsonObject.getLong("dt")
+                val updated= jsonObject.getLong("dt")
                 val updatedText = SimpleDateFormat("dd/MM/YYYY hh:mm a", Locale.ENGLISH).format(
                     Date(updated*1000)
                 )
