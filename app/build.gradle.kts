@@ -55,5 +55,6 @@ dependencies {
     implementation ("com.google.android.gms:play-services-location:20.0.0")
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.25")
     implementation ("com.google.android.libraries.places:places:2.7.0")
+    implementation ("com.google.android.material:material:1.8.0")
 
 }
