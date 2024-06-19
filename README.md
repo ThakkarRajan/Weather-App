@@ -9,13 +9,13 @@ Weather App is an Android application developed using Kotlin that provides real-
 Features
 
 
-**Current Weather:** Get up-to-date weather information for your current location or any city in Canada.
+- **Current Weather:** Get up-to-date weather information for your current location or any city in Canada.
 
-**User-friendly Interface:** Enjoy a clean and intuitive user interface for seamless navigation.
+- **User-friendly Interface:** Enjoy a clean and intuitive user interface for seamless navigation.
 
-**Location Search:** Search for weather information by entering a city name or postal code.
+- **Location Search:** Search for weather information by entering a city name or postal code.
 
-**Favorite Locations:** Save frequently accessed locations for quick access.
+- **Favorite Locations:** Save frequently accessed locations for quick access.
 
 
 
@@ -24,11 +24,11 @@ Features
 
 
 
-**Notifications:** Receive notifications for severe weather alerts or updates.
+- **Notifications:** Receive notifications for severe weather alerts or updates.
 
-**Hourly Forecast:** View hourly weather forecasts for the next 24 hours.
+- **Hourly Forecast:** View hourly weather forecasts for the next 24 hours.
 
-**Daily Forecast:** Access daily weather forecasts for the next 7 days.
+- **Daily Forecast:** Access daily weather forecasts for the next 7 days.
 
 
 
@@ -36,13 +36,13 @@ Features
 **Technologies Used**
 
 
-Programming Language: Kotlin
+- Programming Language: Kotlin
 
-Android Architecture Components: ViewModel, LiveData, Room Database
+- Android Architecture Components: ViewModel, LiveData, Room Database
 
-Weather API: OpenWeatherMap API
+- Weather API: OpenWeatherMap API
 
-Location Services: Google Play Services Location API
+- Location Services: Google Play Services Location API
 
 
 **Contributing**
